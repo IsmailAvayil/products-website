@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+.header-section{
+  margin:auto;
+  max-width:1200px;
+  text-align:center;
+  background-color:#008B8B;
+  color:white;
+  min-height:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  font-family:dana VF
+}
+
+.carausal-container{
+  height:350px;
+  max-width:1200px;
+  margin: auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background-color:#F0FFF0;
+
+}
+
+.outer-container{
+  margin:auto;
+  max-width:1200px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  background-color:#FFFAF0;
+}
+.inner-container{
+  background-color:#F8F8FF;
+  width:250px;
+  margin:5px;
+  display:flex;
+  flex-direction:column;
+  border-radius:10px;
+  border: 1px solid burlywood;
+  transition: transform .2s;
+  
+}
+.inner-container:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(0.9); 
+}
+
+.image-container{
+  max-width:100%;
+  height:200px
+}
+
+img{
+  width:100%;
+  height:200px;
+  border-top-left-radius:10px;
+  border-top-right-radius: 10px;
+}
+
+.details-container{
+  justify-content:space-between;
+}
+.details-container h6{
+  text-align:center;
+}
+.details-container p{
+  font-size:12px;
+  margin:0px 3px
+}
+
+i:hover{
+  transform: scale(1.5);
+}
+
+.load-container{
+  height:100vh;
+  max-width:1200px;
+
+}
+.media-link{
+  text-decoration:none;
+  padding:2px;
+  
+}
+#media-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  max-height:200px;
+  align-items:center
+}
+#media-section{
+  margin:auto;
+  max-width:1200px;
+  text-align:center;
+  background-color:#008B8B;
+  color:white;
+  min-height:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center
+}
+span{
+  font-weight:bold
+}
+.rating-container{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  color:#f2f229;
+  font-size: small;
+
+
+}
+.rating-container h6{
+  color:grey
+}
+.price-container{
+  display:flex;
+  justify-content:center
+}
+.price-container h6{
+  color: blue;
+}
+.title-container{
+  background-color:#008B8B;
+  display:flex;
+  justify-content:center
+}
+.title-container h6{
+  color:white
+}
+.sub-heading{
+  text-align:center;
+  color:Gray
+}
+.Desc-container p{
+  color: Gray;
+
+}
+.button-container{
+  padding:10px;
+  text-align:center
+}
